@@ -27,5 +27,6 @@ The company still want the same design and the component to:
 - You can use any React's hooks
 - You can use any other code/API found in the src/app/exercise-1 or src/utils folders
 - You can edit code in, and only in, src/app/exercise-1 folder
-- The function `simulateHeavyComputation` usage is intentional and SHOULDN'T be changed. **You may change the function definition that is calling `simulateHeavyComputation`, as-long as its runtime still call `simulateHeavyComputation`.**
+- You will see code comments `// DO NOT EDIT`. Code wrapped around those comments is intentional and SHOULDN'T be changed.
+- **You may change the function definition around `// DO NO EDIT` code blocks, as-long as its runtime still call the DO NOT EDIT code.**
 - The shown image should still be generated using the card `id` prop, and take width/height from the state

@@ -1,5 +1,4 @@
 import { State, useSelector } from "@/utils/state";
-import { simulateHeavyComputation } from "@/utils/computation";
 import { useEffect, useState } from "react";
 
 type CardProps = {
@@ -8,17 +7,27 @@ type CardProps = {
     description: string;
 }
 
+// DO NOT EDIT
+const computeImageDomain = () => {
+    const startTime = Date.now();
+    while (Date.now() - startTime < 10) {}
+
+    return 'picsum.photos';
+}
+// DO NOT EDIT
+
 const selectImageUrl = (id: string) => (state: State) => {
     // DO NOT EDIT
-    simulateHeavyComputation();
+    const domain = computeImageDomain();
+    // DO NOT EDIT
 
-    return `https://picsum.photos/seed/${id}/${state.imageOptions.width}/${state.imageOptions.height}`;
+    return `https://${domain}/seed/${id}/${state.imageOptions.width}/${state.imageOptions.height}`;
 }
 
 export const Card = ({id, title, description} : CardProps) => {
     const imageUrl = useSelector(selectImageUrl(id));
 
-    const [usersViewing, setUsersViewing] = useState(Math.round(Math.random() * 100))
+    const [usersViewing, setUsersViewing] = useState(50)
 
     useEffect(() => {
         const intervalId = setInterval(() => setUsersViewing(Math.round(Math.random() * 100)), 1000);
