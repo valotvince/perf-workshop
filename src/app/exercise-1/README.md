@@ -11,7 +11,7 @@ The company still want the same design and the component to:
 
 ## Goals
 
-- Find out using Performance Chrome DevTool what are the issues of the component on re-render (describe it, using screenshots from DevTools).
+- **WITHOUT LOOKING AT THE CODE**, find out what are the issues of the component on re-render (describe it, using screenshots from DevTools).
 - Bring the component re-rendering time around or below 0.50 ms (half micro-second). First render time isn't an issue.
 
 ## Information
