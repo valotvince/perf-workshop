@@ -9,7 +9,10 @@ The company still want the same design and the component to:
 - show an title, description and image (based on item's id)
 - show a fake number of active users changing each second
 
-The goal is to bring the component re-rendering time around or below 0.50 ms (half micro-second). First render time isn't an issue.
+## Goals
+
+- Find out using Performance Chrome DevTool what are the issues of the component on re-render (describe it, using screenshots from DevTools).
+- Bring the component re-rendering time around or below 0.50 ms (half micro-second). First render time isn't an issue.
 
 ## Information
 
@@ -26,4 +29,3 @@ The goal is to bring the component re-rendering time around or below 0.50 ms (ha
 - You can edit code in, and only in, src/app/exercise-1 folder
 - The function `simulateHeavyComputation` usage is intentional and SHOULDN'T be changed. **You may change the function definition that is calling `simulateHeavyComputation`, as-long as its runtime still call `simulateHeavyComputation`.**
 - The shown image should still be generated using the card `id` prop, and take width/height from the state
-
