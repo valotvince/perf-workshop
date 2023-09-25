@@ -13,6 +13,7 @@ The goal is to bring the component rendering time around or below 0.50 ms (half 
 
 ## Information
 
+- Go to http://localhost:3000/exercise-1
 - Use the Performance Chrome DevTool
 - The application is using a custom app state management, whose API looks like Redux's one.
   - `useStore` hook to get store instance
