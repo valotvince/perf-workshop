@@ -1,6 +1,6 @@
 # Solutions
 
-This contains page contains solutions for the exercise, do not read if you don't want to get spoiled !
+This contains page contains solutions for the exercise 1, do not read if you don't want to get spoiled !
 
 <details>
 <summary>A solution</summary>

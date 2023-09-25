@@ -1,7 +1,5 @@
 # Exercise 1
 
-## Description
-
 You are in charge of optimizing a component re-render time, that is used on your company public-facing website.
 The component shows limited number discount offers from other websites, and shows a fake number of people viewing the offer.
 
@@ -15,6 +13,7 @@ The goal is to bring the component rendering time around or below 0.50 ms (half 
 
 ## Information
 
+- Use the Performance Chrome DevTool
 - The application is using a custom app state management, whose API looks like Redux's one.
   - `useStore` hook to get store instance
   - `useSelector` hook to select state values
