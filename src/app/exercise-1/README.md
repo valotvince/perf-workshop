@@ -9,7 +9,7 @@ The company still want the same design and the component to:
 - show an title, description and image (based on item's id)
 - show a fake number of active users changing each second
 
-The goal is to bring the component rendering time around or below 0.50 ms (half micro-second).
+The goal is to bring the component re-rendering time around or below 0.50 ms (half micro-second). First render time isn't an issue.
 
 ## Information
 
